@@ -31,7 +31,7 @@ function App(){
   
     return(
       <div className="app">
-          <div className="container-fluid">
+        <div className="container-fluid">
         <div className="list-group">
         {todos.map((todo, i) => (
           
