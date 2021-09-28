@@ -1,26 +1,27 @@
 body {
     margin: 0;
-    font-family: 'Arial';
+    font-family: 'Roboto';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   
   code {
-    font-family: Arial;
+    font-family: 'Roboto';
   }
   
   .app {
     background: #205477;
     padding: 30px;
+    display: flex;
     height: auto;
-    width: 30%;
+    max-width: 50%;
   }
   
   .todo-list{
     background: #e8e8e8;
     border-radius: 4px;
     padding: 5px;
-    max-width: 400px;
+    width: auto;
   }
   
   .todo{
