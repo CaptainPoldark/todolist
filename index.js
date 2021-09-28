@@ -1,15 +1,19 @@
 function App(){
     const [todos, setTodos] = React.useState([
       {
-        text: 'learn react',
+        text: 'Outwork',
         isCompleted: false,
       },
       {
-        text: 'meet friend for lunch',
+        text: 'Out-Improve',
         isCompleted: false,
       },
       {
-        text: 'build todo app',
+        text: 'Out-Strategize',
+        isCompleted: false,
+      },
+      {
+        text: 'Outlast',
         isCompleted: false,
       }        
     ]);
@@ -27,7 +31,7 @@ function App(){
   
     return(
       <div className="app">
-          <div class="container-fluid">
+          <div className="container-fluid">
         <div className="list-group">
         {todos.map((todo, i) => (
           
