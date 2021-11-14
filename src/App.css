@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: #205477;
+  margin: 0;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Roboto";
+}
+
+.app {
+  padding: 30px;
+  display: flex;
+  height: auto;
+}
+.form-toggle{
+  color: aliceblue;
+}
+.todo-header {
+  display: flex;
+  align-items: flex-end;
+  left: 15px;
+}
+.todo-header-confirm {
+  margin: 15px;
+}
+.todo-header-confirm:hover {
+  margin: 15px;
+  transform: scale(1.5);
+  color: green;
+}
+.todo-complete {
+  margin: 15px;
+  transform: scale(2);
+  animation: completed-check-spin 0.45s linear;
+  color: green;
+}
+
+@keyframes completed-check-spin {
+  from {
+    transform: scale(1);
+
+  }
+  50% {
+    transform: scale(5);
+    margin-bottom: 45px;
+
+  }
+  to {
+    transform: scale(2);
+    margin-bottom: 0px;
+
+  }
+}
+.todo-header-delete {
+  margin: 15px;
+}
+.todo-header-delete:hover {
+  transform: scale(1.5);
+  color: red;
+}
+.todo-form {
+  margin-bottom: 30px;
+}
+.todo-list-container {
+  max-width: min-content;
+}
+.empty-list-alert{
+  text-align: center;
+  width: 17em;
+}
+.game-pad-icon {
+  padding-top: 5px;
+  color: black;
+  transform: scale(4);
+}
+.todo-list {
+  padding: 5px;
+}
+.bio-hazard{
+  margin-left: 15px;
+  color: red;
+  transform: scale(3);
+}
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
